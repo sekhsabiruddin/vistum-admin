@@ -1,0 +1,21 @@
+.mobile-side-bar {
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: fixed;
+  z-index: 9999991111;
+  background: #fff;
+  width: 100%;
+  transition: 0.8s all;
+}
+
+@media only screen and (max-width: 786px) {
+  .mobile-side-bar {
+    display: block;
+    margin-left: -6px;
+  }
+  .dashboard-left-upper .footer-part {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

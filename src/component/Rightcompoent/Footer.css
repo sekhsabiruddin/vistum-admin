@@ -1,0 +1,49 @@
+.foter-outer {
+  /* padding: 1rem 1rem; */
+  margin-top: 2rem;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 10px;
+}
+.foter-outer .inner-div {
+  padding: 1rem 1rem;
+}
+.bottom-fotter-text {
+  text-align: center;
+  color: #ff5151;
+  cursor: pointer;
+  border-top: 0.3px solid #ddd;
+  padding: 0.3rem 0rem;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.foter-outer .upper-text {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+.foter-outer .upper-text p {
+  font-size: 18px;
+}
+.infromation-box {
+  /* border: 3px solid rgb(47, 234, 5); */
+}
+.infromation-box .card {
+  /* border: 3px solid rgb(111, 0, 246); */
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border: 1px solid rgb(237, 239, 237);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.infromation-box .card p {
+  margin-bottom: 0.2rem;
+  color: #303030;
+}
+.infromation-box .card span {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #686868;
+}

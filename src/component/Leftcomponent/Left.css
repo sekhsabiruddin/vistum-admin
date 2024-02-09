@@ -1,0 +1,57 @@
+.left-component {
+  width: 20%;
+  background-color: #fafafa;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  border-right: 1px solid #ddd;
+}
+.left-component-main {
+  margin-top: 2rem;
+}
+.left-component-main .main-menu-text,
+.other-text {
+  color: #bababa;
+  font-size: 12px;
+}
+.sidebar-main-menu {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sidebar-main-menu div {
+  width: 80%;
+  display: flex;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+
+.sidebar-main-menu div span {
+  font-size: 1rem;
+  margin-left: 3rem;
+  font-weight: 600;
+}
+/* //css for others */
+.left-component-other {
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .left-component {
+    width: 7%;
+    overflow: hidden;
+    z-index: 999999;
+  }
+  .left-component:hover {
+    width: 25%;
+    transition: 0.2s all;
+    z-index: 999999;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .left-component {
+    display: none;
+  }
+}
